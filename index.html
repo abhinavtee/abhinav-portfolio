@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+    <script>
+      try {
+        if (localStorage.getItem('portfolio-theme') === 'light') {
+          document.documentElement.dataset.theme = 'light'
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#f7f7fb')
+        }
+      } catch {}
+    </script>
+    <meta name="description" content="Abhinav Tripathi is a Full Stack Developer building thoughtful, responsive web applications with React, Next.js, Node.js, Python, and MongoDB." />
+    <meta property="og:title" content="Abhinav Tripathi — Full Stack Developer" />
+    <meta property="og:description" content="Building thoughtful digital experiences with clean code and considered design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-cover.svg" />
+    <title>Abhinav Tripathi — Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
