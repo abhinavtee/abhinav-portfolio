@@ -6,7 +6,7 @@ export const profile = {
   phone: '+91 9628488554',
   linkedin: 'https://linkedin.com/in/abhinavte',
   github: 'https://github.com/abhinavtee',
-  resume: 'https://drive.google.com/file/d/1lrYVlyC-yOVxfibuSHnBr0lgESEOINEc/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1oCXakQf9ZRig7XRQCJ_WQtmRmVAO7N32/view?usp=drive_link',
   // Add a deployed portfolio URL after publishing this site.
   portfolioUrl: '',
 }
@@ -72,9 +72,9 @@ export const projects = [
     stack: ['React', 'Tailwind CSS', 'Framer Motion', 'Lucide'],
     visual: 'portfolio',
     featured: false,
-    demo: '',
+    demo: 'https://abhinavtripathi.is-a.dev/',
     source: '',
-    sourceLabel: 'Add repository URL',
+    sourceLabel: 'https://github.com/abhinavtee/abhinav_portfolio',
   },
 ]
 
