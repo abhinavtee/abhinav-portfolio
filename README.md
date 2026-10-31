@@ -8,18 +8,20 @@ I built this portfolio with a dark editorial-style design, responsive layouts, s
 
 ## Preview
 
-<!-- Replace this with an actual screenshot of your portfolio -->
+Here is a preview of my portfolio website.
+
 ![Portfolio Preview](public/og-cover.svg)
 
 ## Tech Stack
 
-Here are the technologies and libraries I used to build this project:
+These are the technologies and libraries I used to build this project:
 
-- **Frontend:** React.js, JavaScript
-- **Build Tool:** Vite
+- **Frontend:** React 19
+- **Language:** JavaScript (ES Modules)
+- **Build Tool:** Vite 6
 - **Styling:** Tailwind CSS v4
-- **Animations:** Framer Motion
-- **Icons:** Lucide React, React Icons
+- **Animations:** Framer Motion 12
+- **Icons:** Lucide React and React Icons
 
 ## Features
 
@@ -86,10 +88,19 @@ developer-portfolio/
 │   ├── abhinav.jpg
 │   ├── Abhinav-Tripathi-Resume.pdf
 │   ├── favicon.svg
+│   ├── favicon-32.png
+│   ├── apple-touch-icon.png
 │   └── og-cover.svg
 ├── src/
 │   ├── components/
+│   │   ├── BrandMark.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── ProjectVisual.jsx
+│   │   ├── Reveal.jsx
+│   │   └── SectionHeading.jsx
 │   ├── data/
+│   │   └── portfolio.js
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
@@ -103,7 +114,7 @@ developer-portfolio/
 
 The website is deployed through Vercel and connected to this GitHub repository.
 
-Live URL: [abhinavtripathi.is-a.dev](http://abhinavtripathi.is-a.dev/)
+**Live URL:** [abhinavtripathi.is-a.dev](http://abhinavtripathi.is-a.dev/)
 
 ## About Me
 
